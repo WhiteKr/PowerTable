@@ -1,0 +1,17 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    width: 70px;
+    border: solid 2px black;
+    text-align: right;
+}

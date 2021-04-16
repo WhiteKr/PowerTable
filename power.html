@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./index.css">
+    <script>
+        function renderTable() {
+            const fRow = document.getElementById("fRow");
+            const sRow = document.getElementById("sRow");
+
+            for (var i = 0; i <= 9; i++) {
+                fRow.innerHTML += `<td>${i}</td>`;
+                sRow.innerHTML += `<td>${i ** 5}</td>`;
+            }
+        }
+
+        window.onload = renderTable;
+    </script>
+
+    <title>CTE0002-B</title>
+</head>
+
+<body>
+    <div class="content">
+        <table>
+            <tr id="fRow">
+                <td>n</td>
+            </tr>
+            <tr id="sRow">
+                <td>n⁵</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
